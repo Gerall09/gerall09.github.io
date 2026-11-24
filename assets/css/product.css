@@ -1,0 +1,8 @@
+@import url("../style/app.css");
+
+.grid-4 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.plan-box { position: relative; }
+.plan-box h2 { margin-top: .5rem; }
+.plan-box ul { padding-left: 1.15rem; color: #565650; }
+.plan-box.premium, .plan-box.enterprise { border-color: #33332f; }
+.plan-box .badge { margin-bottom: .35rem; }

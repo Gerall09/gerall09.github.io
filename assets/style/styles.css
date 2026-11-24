@@ -1,0 +1,21 @@
+@import url("app.css");
+
+.hero {
+    display: grid;
+    place-content: center;
+    min-height: 18rem;
+    border-bottom: 2px solid #33332f;
+    background: #e9e8e2;
+    color: #282825;
+    text-align: center;
+}
+
+.hero h1 { margin: 0; }
+.hero p { margin: .5rem 1rem 0; color: #565650; }
+.container { max-width: 1180px; }
+.grid-3 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.product-card, .plan-box { padding: 1.4rem; }
+.product-card { text-align: center; }
+.product-card li, .plan-box li { margin: .35rem 0; color: #565650; }
+.product-card ul, .plan-box ul { padding-left: 1rem; text-align: left; }
+.btn.red, .btn.red:hover { background: #44443f; color: #fff; }
